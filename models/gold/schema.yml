@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: dim_cliente_360
+    columns:
+      - name: id_cliente
+        tests:
+          - unique
+          - not_null
