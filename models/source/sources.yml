@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: hytech_raw
+    database: phrasal-ruler-506321-s5
+    schema: hytech_raw
+    tables:
+      - name: tabela_clientes
+      - name: tabela_produtos
+      - name: tabela_profissoes
+      - name: tabela_regioes
+      - name: tabela_vendas
+      - name: d_calendario
